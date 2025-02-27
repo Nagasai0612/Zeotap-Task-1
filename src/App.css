@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.spreadsheet {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+input {
+  width: 100px;
+  height: 30px;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.formula-bar {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: #e3f2fd;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.formula-bar input {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.formula-bar button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formula-bar button:hover {
+  background-color: #0056b3;
+}
+
+.data-quality-buttons {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #e8f5e9;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.data-quality-buttons button {
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.data-quality-buttons button:hover {
+  background-color: #218838;
+}
+
+.chart-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff3cd;
+  padding: 10px;
+  border-radius: 8px;
+}
